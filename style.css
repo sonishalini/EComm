@@ -38,6 +38,7 @@
     color: #D19C97;
     background-color: #fff;
 }
+/* left header session css here */
 
 .full-banner-wrapper{
     border-top: 1px solid #ddd;
@@ -75,3 +76,47 @@
     color: #333;
     text-decoration: none;
 }
+
+/* middle header session  css here */
+.shop-menu{
+    display: flex;
+}
+
+.left-menu-list{
+    width: 70%;
+}
+.right-menu-list{
+    width: 30%;
+}
+.shop-menu ul{
+    display:flex;
+    margin: 0;padding: 0;
+    list-style-type: none;
+}
+.shop-menu ul li{
+    min-width: 75px;
+    padding: 20px;
+}
+.shop-menu ul li a{
+    color:#333;
+    text-decoration: none;
+}
+.shop-menu ul li a:hover{
+    color: #D19C97;
+}
+.shop-menu ul.dropdown{
+    display: none;
+    border: 1px solid #ddd;
+    position: absolute;
+    box-shadow: #ddd 1px 1px 4px;
+}
+
+.dropdown-head:hover ul.dropdown{
+    display: block;
+}
+
+
+
+
+
+
