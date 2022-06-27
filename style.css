@@ -1,5 +1,6 @@
 .logo h1{
-    font-size: 40px;
+    font-size: 36px;
+    font-weight: 600;
     margin: 0;
 }
 
@@ -8,7 +9,7 @@
 }
 
 .logo h1 span:first-of-type{
-    padding: 5px 10px;
+    padding: 0px 15px;
     border: 1px solid #ddd;
     margin-right: 5px;
     color:#D19C97;
@@ -23,6 +24,9 @@
     color: #666;
     border: 1px solid #ddd;
     border-right: none;
+}
+.search-product input:focus{
+    outline: none;
 }
 .search-product button{
     height: 40px;
